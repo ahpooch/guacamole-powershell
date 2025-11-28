@@ -1,9 +1,9 @@
-# Languages 
+# Languages
 
- - [Get-GuacLanguages](#get-guaclanguages)
+- [Get-GuacLanguages](#get-guaclanguages)
 
 ## Get-GuacLanguages
+
 ```Powershell
 Get-GuacLanguages
 ```
-
