@@ -35,7 +35,7 @@ Get-GuacConnectionsGroupsConnections -DataSource mysql
 ## New-GuacConnectionGroup
 
 The type of Connection Group could be [BALANCING or ORGANIZATIONAL](https://guacamole.apache.org/doc/gug/administration.html#connection-organization-and-balancing).
-To create new Connection Group at ROOT level (with no parent) set `parantIdentifier` to `$null`.
+To create new Connection Group at ROOT level (with no parent) set `parantIdentifier` to `ROOT` or `$null`.
 
 ```Powershell
 $Parameters = @{
